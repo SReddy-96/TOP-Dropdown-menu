@@ -1,0 +1,19 @@
+{
+  "name": "@sreddy-96/dropdown-menu",
+  "version": "1.0.0",
+  "description": "This is a DropDown menu package using HTML, CSS and JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SReddy-96/TOP-Dropdown-menu.git"
+  },
+  "author": "steveng.reddy@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SReddy-96/TOP-Dropdown-menu/issues"
+  },
+  "homepage": "https://github.com/SReddy-96/TOP-Dropdown-menu#readme"
+}

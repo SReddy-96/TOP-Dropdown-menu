@@ -12,6 +12,8 @@
       }
       .menuWrapper {
         width: fit-content;
+        display: inline-block;
+        position: relative;
       }
 
       .menuButton {
@@ -33,13 +35,27 @@
         display: none;
       }
       .menuItems {
-        width: auto;
+        min-width: 100px;
+        position: absolute;
+        z-index: 1;
         border: 1px solid rgba(0, 0, 0, 0.3);
-        padding: 0 0.5rem 0.5rem 0.5rem;
         list-style: none;
-        background-color: #76aded73;
-        margin-bottom: 1rem;
+        padding: 0;
+        background-color: #76aded;
         border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+      }
+
+      .menuItems a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .menuItems li {
+        padding: 0 0.5rem;
+      }
+      .menuItems li:hover {
+        background-color: #5995da;
       }
     </style>
   </head>
@@ -57,10 +73,10 @@
     <div class="menuWrapper">
       <button class="menuButton">Click me</button>
       <ul class="menuItems toggleDropdown">
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
       </ul>
     </div>
 
